@@ -218,17 +218,3 @@ SELECT E.Name,E.Place,E.Dat
 from Events E,Participates P
 where E.ID = P.Event_ID
 and P.User_ID=1000101;
-/*********************SUMMA***********************
-CREATE TABLE Summa(
-Name VARCHAR(20),
-Dat DATE ,
-Time TIMESTAMP(0),
-Age NUMBER(2));
-
-INSERT INTO Summa VALUES('JAGA',TO_DATE('1965-01-09','YYYY-MM-DD'),TO_TIMESTAMP('13:00','HH24:MI'),20);
-INSERT INTO Summa VALUES('FUCKER',TO_DATE('1965-01-09 14:00','YYYY-MM-DD HH24:MI'),20);
-INSERT INTO Summa VALUES('SWATHI',20);
-
-DROP TABLE Summa;
-
-*************************************************/
